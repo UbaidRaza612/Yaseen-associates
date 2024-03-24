@@ -1,0 +1,266 @@
+:root {
+  --blue: #1593c3;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+
+  width: 100%;
+  height: 100px;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1f1919;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+  color: lightblue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  border-radius: 7px;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropbtn:hover {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.Contact-Us {
+  text-decoration: none;
+  color: white;
+}
+
+.swip {
+  width: 100%;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+
+.one {
+  background-image: url(./Images/IMG-20240305-WA0047.jpg);
+  background-size: cover;
+}
+.two {
+  background-image: url(./Images/IMG-20240305-WA0048.jpg);
+  background-size: cover;
+}
+
+.three {
+  background-image: url(./Images/IMG-20240305-WA0049.jpg);
+  background-size: cover;
+}
+
+.four {
+  background-image: url(./Images/IMG-20240305-WA0050.jpg);
+  background-size: cover;
+}
+
+.five {
+  background-image: url(./Images/IMG-20240305-WA0051.jpg);
+  background-size: cover;
+}
+
+.six {
+  background-image: url(./Images/IMG-20240305-WA0052.jpg);
+  background-size: cover;
+}
+
+.seven {
+  background-image: url(./Images/bg-masthead.jpg);
+  background-size: cover;
+}
+
+.eight {
+  background-image: url(./Images/portfolio-4.jpg);
+  background-size: cover;
+}
+
+.nine {
+  background-image: url(./Images/portfolio-1.jpg);
+  background-size: cover;
+}
+
+.first {
+  padding: 7rem 5rem;
+}
+
+.about-us {
+  padding: 3rem 10%;
+}
+.card {
+  .icon_circle {
+    background-color: #1d809f;
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon_circle:hover {
+    background-color: black;
+  }
+
+  h5:hover {
+    color: #1d809f;
+    cursor: pointer;
+  }
+}
+
+.choosing {
+  padding: 3rem 0rem;
+  background-color: gray;
+  .more {
+    background-color: var(--blue);
+    color: white;
+    width: 150px;
+    height: 40px;
+  }
+  .more:hover {
+    background-color: white;
+    color: var(--blue);
+  }
+}
+
+.services {
+  padding: 230px;
+}
+
+.footer {
+  padding-bottom: 5rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  text-decoration: none;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.bg-green {
+  background-color: #40e660;
+}
+
+.bg-blue {
+  background-color: #0b93ff;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
+
+.scroll-to-top:hover {
+  color: #fff;
+}
+
+.scroll-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+}
+
+@media (max-width: 992px) {
+  .nav-brand {
+    width: 100px;
+    height: 100px;
+  }
+
+  .services {
+    padding: 100px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .row {
+    padding: 20%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .first {
+    padding: 10%;
+  }
+  .services {
+    padding: 20%;
+  }
+  .services {
+    padding: 20%;
+  }
+  .row {
+   padding: 0;
+  }
+  
+  .about-us {
+    padding: 20%;
+  }
+  footer.footer .social-link{
+    height: 2rem;
+    width: 2rem;
+    line-height: 2.5rem;
+    font-size: 0.75rem;
+    
+  }
+}
+@media (max-width: 400px) {
+  .about-us {
+    padding: 0%;
+  }
+  .services {
+    padding: 0%;
+  }
+  
+}
